@@ -9,7 +9,7 @@ from math import sqrt, floor
 class Grid:
     DOWN, ACCROSS = True, False
     EMPTY = ' '
-    MAX_NB_OF_TRIES = 8
+    MAX_NB_OF_TRIES = 500
 
     def __init__(self, words):
         self.words = self.arrange_words(words)
