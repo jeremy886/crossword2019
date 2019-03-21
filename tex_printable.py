@@ -108,7 +108,7 @@ def tex_out(crosswords_lines, head_letters):
         texfile.write(r"\end{PuzzleClues}")
 
 
-if __name__ == '__main__':
+def print_tex():
     from headletters import find_heads, build_01_board
 
     crosswords_lines = crossword_text_to_lines("crosswords_out.txt")
